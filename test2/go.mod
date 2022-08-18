@@ -4,7 +4,6 @@ go 1.19
 
 require (
 	github.com/ethereum/go-ethereum v1.10.21
-	github.com/panjf2000/ants/v2 v2.5.0
 	github.com/shopspring/decimal v1.3.1
 )
 

@@ -55,8 +55,8 @@ wkly = w3.toChecksumAddress('0xe4f05A66Ec68B54A58B17c22107b02e0232cC817')
 if __name__ == "__main__":
     StartTime = time.process_time()
 
-    amounIn = 100
-    print("Amount in", amounIn)
-    getAmount(wkly, ksp, amounIn)
+    amountIn = 100
+    print("Amount in", amountIn)
+    getAmount(wkly, ksp, amountIn)
     EndTime = time.process_time()
     print("running_time:", EndTime - StartTime)
