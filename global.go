@@ -34,7 +34,6 @@ type swapToken struct {
 var factoryAddr = common.HexToAddress("0xc6a2ad8cc6e4a7e08fc37cc5954be07d499e7654")
 var swapTokenLists = []swapToken{}
 
-// initFlag 设置程序命令行参数
 func initFlag() {
 	flag.IntVar(&vuser, "u", 10, "Number of virtual users running")
 	flag.DurationVar(&vtime, "d", 5*time.Second, "running time")
@@ -43,9 +42,7 @@ func initFlag() {
 	flag.Parse()
 }
 
-// 初始化全局变量
 func initVer() {
-	// 设置时区
 	time.Local = time.FixedZone("CST", 8*3600)
 
 	swapTokenLists = append(swapTokenLists,
