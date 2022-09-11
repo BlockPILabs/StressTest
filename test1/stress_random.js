@@ -28,9 +28,9 @@ export default function () {
         },
         {
             jsonrpc: "2.0",
-            method: "eth_getTransactionReceipt",
+            method: "eth_getTransactionByHash",
             params: [
-                "0xabfe871f8bdb0f526611e8620a4569cdd7617f7e2bbc377fe6ab5b2a27e76d6e",
+                "0xa3f6c173b0085c670683ab9fe3272aae1bf712c17d89fd0dbe784441b83c967f",
             ],
             id: 1,
         },
